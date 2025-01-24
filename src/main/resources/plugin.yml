@@ -3,3 +3,8 @@ version: '${project.version}'
 main: com.dami.worldmarker.WorldMarker
 api-version: '1.20'
 depend: [WorldGuard]
+commands:
+  marker:
+    description: Create a marker
+    usage: /<command> <name>
+    permission: worldmarker.marker
